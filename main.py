@@ -5,7 +5,7 @@ from torch.nn.utils.rnn import pad_sequence
 from autoencoder import AE
 from training import train
 from embed import embed_review
-from readFile import preprocess_reviews
+from preprocess import preprocess_reviews
 
 from sklearn.cluster import KMeans
 import os
